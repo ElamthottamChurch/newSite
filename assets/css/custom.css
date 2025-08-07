@@ -1,0 +1,56 @@
+#lang-toggle {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  user-select: none;
+  padding-left: 15px;
+}
+
+.lang-option {
+  opacity: 0.4;
+  transition: 0.3s ease;
+  padding: 2px 6px;
+}
+
+.lang-option.active {
+  opacity: 1;
+  font-weight: bold;
+  color: #0d6efd; /* Bootstrap primary */
+}
+
+.divider {
+  color: #999;
+  padding: 0 4px;
+}
+.lang-option:hover {
+  opacity: 0.8;
+}
+
+/* Weekly Schedule */
+.ticker-item {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 576px) {
+  .ticker-item .btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+
+.day-box {
+  display: inline-block;
+  min-width: 100px;
+  border-color: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .day-box {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+}
