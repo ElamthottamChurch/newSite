@@ -67,18 +67,6 @@
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
-
-        let container = document.getElementById("yt-video");
-        container.innerHTML = `
-                <div class="video-background">
-                    <div class="video-foreground">
-                        <iframe
-                            src="https://www.youtube.com/embed/7aTpp2Z_4Q4?autoplay=1&mute=1&loop=1&playlist=7aTpp2Z_4Q4&controls=0&modestbranding=1&rel=0&showinfo=0"
-                            frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-    `;
     });
   }
 

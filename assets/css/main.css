@@ -551,6 +551,7 @@ h6 {
   overflow: hidden;
   background: var(--background-color);
   transition: all 0.6s ease-out;
+  opacity: 10%;
 }
 
 #preloader:before {
