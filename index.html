@@ -116,14 +116,13 @@
                     <source src="assets/videos/churchVideoCompressed.mp4" type="video/mp4">
                 </video> -->
 
-                <div class="video-background">
-                    <div class="video-foreground">
-                        <iframe
-                            src="https://www.youtube.com/embed/7aTpp2Z_4Q4?autoplay=1&mute=1&loop=1&playlist=7aTpp2Z_4Q4&controls=0&modestbranding=1&rel=0&showinfo=0"
-                            frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-                        </iframe>
-                    </div>
+
+                <div class="video-container video-background" id="yt-video">
+
+                    <img src="assets/img/custom/churchLarge.png" alt="Loading video..."
+                        style="width:100%;height:100%;object-fit:cover;">
                 </div>
+
 
 
                 <div class="overlay"></div>
@@ -717,7 +716,7 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Preloader -->
-    <!-- <div id="preloader"></div> -->
+    <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
