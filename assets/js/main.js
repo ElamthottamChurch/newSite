@@ -67,6 +67,13 @@
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove();
+      const container = document.getElementById("videoContainer");
+      const iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube.com/embed/7aTpp2Z_4Q4?autoplay=1&mute=1&loop=1&playlist=7aTpp2Z_4Q4&controls=0&modestbranding=1&rel=0&showinfo=0";
+      iframe.frameBorder = "0";
+      iframe.allow = "autoplay; fullscreen";
+      iframe.allowFullscreen = true;
+      container.appendChild(iframe);
     });
   }
 
