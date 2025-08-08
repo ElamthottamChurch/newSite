@@ -40,10 +40,10 @@ window.addEventListener("load", function () {
                     // <source src="assets/videos/churchVideoCompressed.mp4" type="video/mp4">
                     src="https://www.youtube.com/embed/7aTpp2Z_4Q4?autoplay=1&mute=1&loop=1&playlist=7aTpp2Z_4Q4"
                 </video>
-                <iframe
-                    src="https://www.youtube.com/embed/7aTpp2Z_4Q4?autoplay=1&mute=1&loop=1&playlist=7aTpp2Z_4Q4"
-                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-    `;
+    //             <iframe
+    //                 src="https://www.youtube.com/embed/7aTpp2Z_4Q4?autoplay=1&mute=1&loop=1&playlist=7aTpp2Z_4Q4"
+    //                 width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+    //                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+    // `;
 });
 
